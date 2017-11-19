@@ -1,6 +1,6 @@
 {
     "name": "rdd.linknode",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "rdd.linknode support the linknode that rdd know how to use it.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
