@@ -31,4 +31,6 @@ var linknode = /** @class */ (function () {
     ;
     return linknode;
 }());
-exports.default = linknode;
+exports.linknode = linknode;
+
+//# sourceMappingURL=../maps/linknode.js.map

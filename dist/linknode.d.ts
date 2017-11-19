@@ -1,4 +1,4 @@
-export default class linknode {
+export declare class linknode {
     _nodeData: any;
     _nextNode: linknode;
     constructor(_nodeData?: any, _nextNode?: linknode);
