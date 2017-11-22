@@ -1,6 +1,6 @@
 export class linknode {
-    _nodeData:any;
-    _nextNode:linknode;
+    private _nodeData:any;
+    private _nextNode:linknode;
     constructor(_nodeData? :any,_nextNode? :linknode){
         if(_nodeData){
             this._nodeData = _nodeData
@@ -20,10 +20,16 @@ export class linknode {
             lastNode._nextNode = nde;
         }
     }
-    data(nodeData: any): void{
+    sData(nodeData: any): void{
         this._nodeData = nodeData;
     };
-    next(): linknode{
+    gData(): any{
+        return this._nodeData;
+    }
+    sNext(nextNode: linknode){
+        this._nextNode = nextNode;
+    }
+    gNext(): linknode{
         return this._nextNode;
     };
 }

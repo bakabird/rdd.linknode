@@ -21,11 +21,17 @@ var linknode = /** @class */ (function () {
             lastNode._nextNode = nde;
         }
     };
-    linknode.prototype.data = function (nodeData) {
+    linknode.prototype.sData = function (nodeData) {
         this._nodeData = nodeData;
     };
     ;
-    linknode.prototype.next = function () {
+    linknode.prototype.gData = function () {
+        return this._nodeData;
+    };
+    linknode.prototype.sNext = function (nextNode) {
+        this._nextNode = nextNode;
+    };
+    linknode.prototype.gNext = function () {
         return this._nextNode;
     };
     ;

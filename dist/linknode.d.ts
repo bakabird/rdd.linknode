@@ -1,8 +1,10 @@
 export declare class linknode {
-    _nodeData: any;
-    _nextNode: linknode;
+    private _nodeData;
+    private _nextNode;
     constructor(_nodeData?: any, _nextNode?: linknode);
     append(nde: linknode): void;
-    data(nodeData: any): void;
-    next(): linknode;
+    sData(nodeData: any): void;
+    gData(): any;
+    sNext(nextNode: linknode): void;
+    gNext(): linknode;
 }
